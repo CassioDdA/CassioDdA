@@ -6,6 +6,25 @@ let limit = 100;
 
 const url = `https://gateway.marvel.com/v1/public/characters?nameStartsWith=${nameStartsWith}&limit=${limit}&apikey=${publicKey}&ts=${ts}&hash=${hashV}`;
 
+
+const audio = document.getElementById("custom-audio");
+const playButton = document.getElementById("play-button");
+
+playButton.addEventListener("click", () => {
+  if (audio.paused) {
+    audio.play();
+    playButton.innerText = "Pause";
+  } else {
+    audio.pause();
+    playButton.innerText = "Play";
+  }
+});
+
+
+
+
+
+
 const characterBackgrounds = {
   "spider-dok": "/src/img/1-dok.jpg",
 

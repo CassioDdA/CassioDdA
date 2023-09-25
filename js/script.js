@@ -23,8 +23,6 @@ playButton.addEventListener("click", () => {
 
 
 
-
-
 const characterBackgrounds = {
   "spider-dok": "/src/img/1-dok.jpg",
 

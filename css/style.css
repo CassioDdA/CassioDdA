@@ -138,7 +138,7 @@
  }
 
 
-/* Estilos padrão para o botão "Play" */
+
 #play-button {
 	background-color: #095efc00;
 	color: #ffffff;
@@ -147,26 +147,26 @@
 	padding: 0.5em 1em;
 	font-size: 1em;
 	margin-top: 20em;
-	transition: background-color 0.3s; /* Adicione "s" para a duração da transição */
-	width: 100%; /* Ocupa a largura total do seu container */
+	transition: background-color 0.3s; 
+	width: 100%; 
   }
   
-  /* Altera a cor de fundo quando o cursor passa sobre o botão */
+ 
   #play-button:hover {
-	background-color: #074a8d34; /* Cor azul quando o cursor está sobre o botão */
+	background-color: #074a8d34; 
   }
   
-  /* Media query para celulares */
+  
   @media screen and (max-width: 600px) {
 	#play-button {
 	  font-size: 0.8em;
 	  padding: 0.4em 0.8em;
-	  margin-left: 0; /* Remova a margem esquerda */
-	  margin-top: 20em; /* Ajuste a margem superior */
+	  margin-left: 0; 
+	  margin-top: 20em; 
 	}
   }
   
-  /* Media query para tablets */
+
   @media screen and (min-width: 601px) and (max-width: 1024px) {
 	#play-button {
 	  font-size: 1em;
@@ -174,7 +174,7 @@
 	}
   }
   
-  /* Media query para laptops de 14 polegadas */
+  
   @media screen and (min-width: 1025px) and (max-width: 13.99em) {
 	#play-button {
 	  font-size: 1.2em;
@@ -182,7 +182,7 @@
 	}
   }
   
-  /* Media query para laptops de 16 polegadas */
+  
   @media screen and (min-width: 1400px) and (max-width: 15.99em) {
 	#play-button {
 	  font-size: 1.4em;
@@ -190,7 +190,7 @@
 	}
   }
   
-  /* Media query para laptops de 18 polegadas */
+  
   @media screen and (min-width: 1600px) and (max-width: 17.99em) {
 	#play-button {
 	  font-size: 1.6em;
@@ -198,7 +198,7 @@
 	}
   }
   
-  /* Media query para televisores grandes (exemplo: 4K TV) */
+
   @media screen and (min-width: 2000px) {
 	#play-button {
 	  font-size: 2em;
@@ -206,7 +206,7 @@
 	}
   }
   
-  /* Media query para posicionar o botão abaixo do container */
+  
   @media screen and (max-width: 620px) {
 	.container {
 	  flex-direction: column;
@@ -218,7 +218,7 @@
 	}
   }
   
-  /* Media query para telas muito estreitas (por exemplo, 399px) */
+ 
   @media screen and (max-width: 399px) {
 	.container {
 	  flex-direction: column;
